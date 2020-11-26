@@ -1,0 +1,20 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "A tailwind project starter template",
+  "scripts": {
+    "init:tailwind": "tailwindcss init --full",
+    "build:css": "postcss src/css/styles.css -o src/dist/final.css",
+    "build:init": "tailwindcss build src/css/styles.css -o src/dist/styles.css"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "autoprefixer": "^10.0.2",
+    "cssnano": "^4.1.10",
+    "postcss": "^8.1.10",
+    "postcss-cli": "^8.3.0",
+    "tailwindcss": "^2.0.1"
+  }
+}
